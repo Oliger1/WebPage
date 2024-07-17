@@ -1,0 +1,608 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\home\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\home\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\data\\webdocumentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:data\\webdocumentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\service\\rolemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:service\\rolemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\service\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:service\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\controllers\\communitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:controllers\\communitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\enum\\ratingenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:enum\\ratingenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\models\\communityhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:models\\communityhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\home\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\home\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\home\\resume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\home\\resume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\models\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:models\\indexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\logservice\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:logservice\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\home\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\home\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\data\\migrations\\20240423152028_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:data\\migrations\\20240423152028_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 310,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:51:45.298Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\RoleManagementService.cs",
+              "RelativeDocumentMoniker": "Service\\RoleManagementService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\RoleManagementService.cs",
+              "RelativeToolTip": "Service\\RoleManagementService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:55:26.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebDocumentDb.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\WebDocumentDb.cs",
+              "RelativeDocumentMoniker": "Data\\WebDocumentDb.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\WebDocumentDb.cs",
+              "RelativeToolTip": "Data\\WebDocumentDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:48:30.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Notification.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Notification.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Notification.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Notification.cshtml",
+              "RelativeToolTip": "Views\\Home\\Notification.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T23:09:32.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:52:39.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Service\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\INotificationService.cs",
+              "RelativeToolTip": "Service\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:01:40.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Service\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\NotificationService.cs",
+              "RelativeToolTip": "Service\\NotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:55:23.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:08:56.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommunityController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\CommunityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommunityController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\CommunityController.cs",
+              "RelativeToolTip": "Controllers\\CommunityController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:50:54.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:54:08.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RatingEnum.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Enum\\RatingEnum.cs",
+              "RelativeDocumentMoniker": "Enum\\RatingEnum.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Enum\\RatingEnum.cs",
+              "RelativeToolTip": "Enum\\RatingEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:49:18.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwEgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:53:50.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommunityHub.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\CommunityHub.cs",
+              "RelativeDocumentMoniker": "Models\\CommunityHub.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\CommunityHub.cs",
+              "RelativeToolTip": "Models\\CommunityHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T12:03:34.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Community.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Community.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Community.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Community.cshtml",
+              "RelativeToolTip": "Views\\Home\\Community.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAADwv3wAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:54:44.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Resume.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Resume.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Resume.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Resume.cshtml",
+              "RelativeToolTip": "Views\\Home\\Resume.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK8AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T13:15:54.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-04T11:06:14.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:54:56.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:55:34.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:49:31.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IndexModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\IndexModel.cs",
+              "RelativeDocumentMoniker": "Models\\IndexModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\IndexModel.cs",
+              "RelativeToolTip": "Models\\IndexModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:49:31.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Admin.cshtml",
+              "RelativeToolTip": "Views\\Home\\Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:54:25.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-23T14:43:11.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T15:14:52.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAABBwCwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T22:59:06.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\LogService\\LogService.cs",
+              "RelativeDocumentMoniker": "LogService\\LogService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\LogService\\LogService.cs",
+              "RelativeToolTip": "LogService\\LogService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:53:17.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240423152028_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\Migrations\\20240423152028_Initial.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240423152028_Initial.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\Migrations\\20240423152028_Initial.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240423152028_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:20:28.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:55:32.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Review.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Review.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Review.cshtml",
+              "RelativeToolTip": "Views\\Home\\Review.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:55:19.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:55:13.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:54:19.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:54:00.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:43:57.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:43:46.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:43:45.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:39:24.874Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 90,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

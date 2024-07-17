@@ -1,0 +1,40 @@
+﻿/* Stilizimi për chat box */
+#chatMessages {
+    max-height: 300px; /* Lartësia maksimale e chat box-it */
+    overflow-y: auto; /* Lejo skrolim vetëm në drejtimin vertikal */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+    /* Stilizimi për mesazhet në chat */
+    #chatMessages div {
+        margin-bottom: 5px;
+        padding: 5px 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+    }
+
+/* Stilizimi për fushën e input-it për të shkruar mesazhet */
+#messageInput {
+    width: calc(100% - 80px); /* Gjeresia e input-it me përjashtim të gjërave të tjera në të njëjtin rresht */
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stilizimi për butonin e dërgimit të mesazhit */
+#chatForm button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* Stilizimi për butonin e dërgimit të mesazhit kur është i shtrirë mbi të */
+    #chatForm button:hover {
+        background-color: #0056b3;
+    }

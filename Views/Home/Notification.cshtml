@@ -1,0 +1,77 @@
+﻿@model IEnumerable<WebSiteDocuments.Data.Notification>
+
+@{
+    ViewData["Title"] = "Notifications";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .notification-item {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: opacity 0.5s, height 0.5s, padding 0.5s, margin 0.5s;
+        overflow: hidden;
+    }
+
+        .notification-item.hide {
+            opacity: 0;
+            height: 0;
+            padding: 0;
+            margin: 0;
+        }
+</style>
+
+<div class="container py-5">
+    <h1 class="text-center mb-5">Notifications</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="accordion" id="notificationAccordion">
+            @foreach (var item in Model)
+            {
+                <div class="notification-item">
+                    <h2>@item.Message</h2>
+                    <p>Date: @item.Date.ToString("MM/dd/yyyy")</p>
+                    <button class="btn btn-danger mark-as-read" data-notification-id="@item.Id">Mark as Read</button>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-center">No notifications found.</p>
+    }
+</div>
+
+@section Scripts {
+    <script>
+
+        $(document).ready(function () {
+            
+            $('.mark-as-read').on('click', function () {
+                var notificationId = $(this).data('notification-id');
+                var notificationItem = $(this).closest('.notification-item');
+
+                notificationItem.addClass('read');
+
+                $.ajax({
+                    url: '/Notification/MarkAsRead',
+                    type: 'POST',
+                    data: { notificationId: notificationId },
+                    success: function (response) {
+                        alert('Marked as read successfully!');
+                    },
+                    error: function () {
+                        alert('Failed to mark as read.');
+                        // Rikthe vlerën e IsRead në false nëse ka një gabim në ruajtje
+                        notificationItem.removeClass('read');
+                    }
+                });
+            });
+        });
+
+
+    </script>
+}

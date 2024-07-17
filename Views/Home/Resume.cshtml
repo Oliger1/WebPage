@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Resumes</title>
+
+</head>
+<body>
+    <h2>Resumes</h2>
+
+    <br>
+        <input type="text" id="searchInput" placeholder="Search" />
+        <script>
+            document.getElementById("searchInput").addEventListener("keyup", function () {
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById("searchInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementsByTagName("table")[0];
+                tr = table.getElementsByTagName("tr");
+
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td");
+                    for (var j = 0; j < td.length; j++) {
+                        if (td[j]) {
+                            txtValue = td[j].textContent || td[j].innerText;
+                            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                tr[i].style.display = "";
+                                break;
+                            } else {
+                                tr[i].style.display = "none";
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+        </br>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Download Link</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var resume in Model)
+            {
+                <tr>
+                    <td>@resume.Id</td>
+                    <td>@resume.Title</td>
+                    <td>@resume.Description</td>
+                    <td>@resume.Category</td>
+                    <td>
+                        <a asp-controller="Home" asp-action="Download" asp-route-filePath="@resume.DownloadLink" download>
+                            <div class="download-icon">
+                                <img src="../image/download.jpeg" alt="Download" />
+                                <span>Download</span>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <button class="edit-button" onclick="showEditModal('@resume.Id', '@resume.Title', '@resume.Description', '@resume.Category')">Edit</button>
+                            <button class="delete-button" onclick="showConfirmationModal('@resume.Id', '@resume.Title', '@resume.Description', '@resume.Category')">X</button>
+                        }
+                        <button class="detail-button" onclick="showDetailModal('@resume.Title', '@resume.Description', '@resume.Category')">Details</button>
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="detailTitle"></h2>
+            <p id="detailDescription"></p>
+            <p id="detailCategory"></p>
+        </div>
+    </div>
+
+
+    
+    <div id="editModal" class="modal">
+        <div class="modal-content edit-modal">
+            <span class="close" onclick="closeEditModal()">&times;</span>
+            <h2 class="modal-heading">Edit Resume</h2>
+            <form id="editForm" action="/Home/EditDeleteCV" method="post">
+                <input type="hidden" id="editResumeId" name="resumeId" />
+                <div class="form-group">
+                    <label for="editTitle">Title:</label>
+                    <input type="text" id="editTitle" name="title" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="editDescription">Description:</label>
+                    <textarea id="editDescription" name="description" class="form-control"></textarea>
+                </div>
+                <input type="hidden" id="editAction" name="action" value="edit" />
+                <div class="form-group">
+                    <label for="editCategory">Category:</label>
+                    <input type="text" id="editCategory" name="category" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary save-button">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Modal for Confirmation -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content confirm-modal">
+            <span class="close" onclick="closeConfirmationModal()">&times;</span>
+            <h2>Confirm Deletion</h2>
+            <p>Are you sure you want to delete the following resume?</p>
+            <table>
+                <tr>
+                    <th>Title:</th>
+                    <td><span id="confirmResumeTitle"></span></td>
+                </tr>
+                <tr>
+                    <th>Category:</th>
+                    <td><span id="confirmResumeCategory"></span></td>
+                </tr>
+                <tr>
+                    <th>Description:</th>
+                    <td><span id="confirmResumeDescription"></span></td>
+                </tr>
+            </table>
+            <form id="deleteForm" action="/Home/EditDeleteCV" method="post">
+                <input type="hidden" id="confirmResumeId" name="resumeId" />
+                <input type="hidden" id="confirmAction" name="action" value="delete" />
+                <button type="submit" class="delete-button">Delete</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="pagination">
+        @if (ViewBag.CurrentPage > 1)
+        {
+            <a href="/Home/Resume?page=@(ViewBag.CurrentPage - 1)" class="btn"><i class="fas fa-chevron-left"></i> Previous</a>
+        }
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <a href="/Home/Resume?page=@i" class="@(ViewBag.CurrentPage == i ? "active" : "")">@i</a>
+        }
+        @if (ViewBag.CurrentPage < ViewBag.TotalPages && ViewBag.TotalPages > 0)
+        {
+            <a href="/Home/Resume?page=@(ViewBag.CurrentPage + 1)" class="btn right">Next <i class="fas fa-chevron-right"></i></a>
+        }
+    </div>
+
+    <script>
+        function showEditModal(id, title, description, category) {
+            document.getElementById('editResumeId').value = id;
+            document.getElementById('editTitle').value = title;
+            document.getElementById('editDescription').value = description;
+            document.getElementById('editCategory').value = category;
+            document.getElementById('editModal').style.display = 'block';
+        }
+
+        function closeEditModal() {
+            document.getElementById('editModal').style.display = 'none';
+        }
+
+        function showConfirmationModal(id, title, description, category) {
+            document.getElementById('confirmResumeId').value = id;
+            document.getElementById('confirmResumeTitle').textContent = title;
+            document.getElementById('confirmResumeDescription').textContent = description;
+            document.getElementById('confirmResumeCategory').textContent = category;
+            document.getElementById('confirmationModal').style.display = 'block';
+        }
+
+        function closeConfirmationModal() {
+            document.getElementById('confirmationModal').style.display = 'none';
+        }
+
+
+        function showDetailModal(title, description, category) {
+            document.getElementById("detailTitle").innerText = title;
+            document.getElementById("detailDescription").innerText = description;
+            document.getElementById("detailCategory").innerText = category;
+            document.getElementById("detailModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("detailModal").style.display = "none";
+        }
+
+
+    </script>
+</body>
+</html>

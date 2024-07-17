@@ -1,0 +1,147 @@
+﻿@model List<WebSiteDocuments.Data.ResumeModel>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #333;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        form {
+            margin-top: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="file"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .alert-success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-danger {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Admin Panel</h1>
+
+        @if (!string.IsNullOrEmpty(ViewBag.Message))
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewBag.Message
+            </div>
+        }
+
+        <h2>Document List</h2>
+        <ul>
+            @foreach (var resume in Model)
+            {
+                <li>
+                    <h4>@resume.Title</h4>
+                    <p>@resume.Description</p>
+                    <a href="@resume.DownloadLink" download>Download CV</a>
+                    <p>@resume.Category</p>
+                </li>
+            }
+        </ul>
+
+        <h2>Upload Document</h2>
+        <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="UploadDocument">
+            <label for="file">Choose File:</label>
+            <input type="file" id="file" name="file"><br><br>
+
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title"><br><br>
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category"><br><br>
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description"><br><br>
+
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>

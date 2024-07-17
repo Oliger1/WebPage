@@ -1,0 +1,300 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    background-image: url('../image/images.jpeg'); /* Rruga relative për fotografinë lokale */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.body {
+    color: white; /* Ngjyra e përgjithshme e tekstit */
+}
+
+.text-center h1,
+.about-me h2,
+.about-me p,
+.projects h2,
+.projects .project h3,
+.projects .project p,
+.Contacts p
+.about-text {
+    color: white; /* Ngjyra e tekstit për elementët specifikë */
+}
+
+.resume-text {
+    color: white; /* Ngjyra e tekstit */
+}
+
+.custom-btn {
+    background-color: #258cfb; /* Ngjyra e sfondit të butonit */
+    color: white; /* Ngjyra e tekstit në buton */
+    padding: 10px 20px; /* Madhësia e padding për të rrethuar tekstin në buton */
+    border-radius: 5px; /* Rrethimi i butonit */
+    text-decoration: none; /* Hiq underline nga teksti */
+}
+
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-me, .projects, .Contacts {
+    margin-bottom: 40px;
+}
+
+    .about-me h2 {
+        font-size: 24px;
+    }
+
+    .about-me p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .projects h2 {
+        font-size: 24px;
+    }
+
+    .projects .project {
+        margin-bottom: 20px;
+    }
+
+        .projects .project h3 {
+            font-size: 20px;
+        }
+
+        .projects .project p {
+            font-size: 16px;
+            line-height: 1.3;
+        }
+
+    .Contacts p {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+
+/* Stilizimi i tabeles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.edit-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.download-icon {
+    display: flex;
+    align-items: center;
+    color: red;
+}
+
+    .download-icon img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .pagination a {
+        color: #333;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+        border-radius: 4px;
+    }
+
+        .pagination a.active {
+            background-color: #333;
+            color: white;
+        }
+
+        .pagination a:hover {
+            background-color: #f2f2f2;
+        }
+
+/* Stilizimi i modalit */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation-name: modal-show;
+    animation-duration: 0.5s;
+}
+
+/* Animacioni i modalit */
+.keyframes modal-show {
+    from
+
+{
+    opacity: 0;
+}
+
+to {
+    opacity: 1;
+}
+
+}
+
+/* Stilizimi i ikonës së mbylljes */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Stilizimi i butonit 'Save' */
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .save-button:hover {
+        background-color: #45a049;
+    }
+
+.search-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .search-container input[type=text] {
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+        .search-container input[type=text]:focus {
+            outline: none;
+            border-color:   #2196F3;
+        }
+

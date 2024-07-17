@@ -1,0 +1,220 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #333; /* New */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .custom-btn {
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+            .custom-btn:hover {
+                background-color: darkorange;
+            }
+
+        .project {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+            .project h3 {
+                margin-top: 0;
+            }
+
+            .project p {
+                margin-bottom: 10px;
+            }
+
+        .animated-info {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .animated-info li {
+                display: inline-block;
+                margin-right: 10px;
+                font-weight: bold;
+                color: #555;
+            }
+
+                .animated-info li:last-child {
+                    margin-right: 0;
+                }
+
+        /* New styles */
+        .container.about-me {
+            background: linear-gradient(to right, #ff8000, #ffbf00); /* Gradient background */
+            color: white; /* Text color */
+            padding: 40px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .container.about-me h2 {
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+
+            .container.about-me p {
+                font-size: 18px;
+            }
+
+        .container.projects {
+            margin-top: 50px;
+        }
+
+            .container.projects .project {
+                background: #f9f9f9;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+            }
+
+                .container.projects .project h3 {
+                    color: #333;
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                }
+
+                .container.projects .project p {
+                    font-size: 16px;
+                    line-height: 1.6;
+                    color: #666;
+                }
+
+                .container.projects .project a {
+                    color: #ff8000;
+                }
+
+        .container.resume-text {
+            margin-top: 50px;
+        }
+
+            .container.resume-text .animated-info li {
+                color: #ff8000; /* Highlight color for skills */
+            }
+
+            .container.resume-text .custom-btn {
+                background-color: #ff8000;
+                margin-top: 30px;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+                .container.resume-text .custom-btn:hover {
+                    background-color: #ffbf00; /* Hover color */
+                }
+
+        .container.Contacts {
+            margin-top: 50px;
+        }
+
+            .container.Contacts p {
+                font-size: 18px;
+                color: #333;
+                margin-bottom: 10px;
+            }
+
+            .container.Contacts a {
+                color: #ff8000;
+            }
+
+                .container.Contacts a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Welcome to @Model.Name's portfolio website!</h1>
+    </div>
+
+    <div class="container about-me">
+        <h2>@Model.Name</h2>
+        <p class="text-center text-dark">@Model.Profession</p>
+        <p>@Model.Description</p>
+    </div>
+
+    <div class="container projects">
+        <h2>Projects</h2>
+        @foreach (var project in Model.Projects)
+        {
+            <div class="project">
+                <h3>@project.Title</h3>
+                <p>@project.Description</p>
+                <p>Technologies used: @project.TechnologiesUsed</p>
+                <p>GitHub: <a href="@project.GitHubLink">GitHub Repository</a></p>
+            </div>
+        }
+
+        <div class="container resume-text">
+            <div class="about-text">
+                <small>Welcome to <span>@Model.Name</span>!</small>
+                <h1 class="animated animated-text">
+                    <span class="mr-2">Hello, I'm @Model.Name</span>
+                    <ul class="animated-info">
+                        <li>.Net Developer</li>
+                        <li>Web Developer</li>
+                        <li>Full stack</li>
+                    </ul>
+                </h1>
+                <p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces, and web development.</p>
+                <a class="custom-btn" asp-controller="Home" asp-action="Resume" style="color: white;">Projekti im</a>
+            </div>
+        </div>
+
+        <div class="container Contacts">
+            <p>Email: <a href="mailto:@Model.Email">@Model.Email</a></p>
+            <p>Phone: @Model.Phone</p>
+            <p>LinkedIn: <a href="@Model.LinkedIn">LinkedIn Profile</a></p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
