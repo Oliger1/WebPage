@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|c:\\users\\user\\desktop\\usb babit\\ikub_info_net_2023\\oliger shehi\\websitedocuments\\logservice\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8909B18-76D6-4CF8-B5E4-F81112CCEA21}|WebSiteDocuments.csproj|solutionrelative:logservice\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -150,11 +154,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 310,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -164,6 +168,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T14:51:45.298Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T11:44:33.422Z",
               "EditorCaption": ""
             },
             {
@@ -177,32 +194,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RoleManagementService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\RoleManagementService.cs",
-              "RelativeDocumentMoniker": "Service\\RoleManagementService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\RoleManagementService.cs",
-              "RelativeToolTip": "Service\\RoleManagementService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T22:55:26.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WebDocumentDb.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\WebDocumentDb.cs",
-              "RelativeDocumentMoniker": "Data\\WebDocumentDb.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\WebDocumentDb.cs",
-              "RelativeToolTip": "Data\\WebDocumentDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T14:48:30.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Notification.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Notification.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Notification.cshtml",
@@ -210,12 +201,11 @@
               "RelativeToolTip": "Views\\Home\\Notification.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T23:09:32.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T23:09:32.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
@@ -223,12 +213,11 @@
               "RelativeToolTip": "Controllers\\ReviewController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T14:52:39.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:52:39.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\INotificationService.cs",
               "RelativeDocumentMoniker": "Service\\INotificationService.cs",
@@ -236,12 +225,48 @@
               "RelativeToolTip": "Service\\INotificationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAxwAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:01:40.197Z",
+              "WhenOpened": "2024-04-23T23:01:40.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T15:14:52.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "WebDocumentDb.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\WebDocumentDb.cs",
+              "RelativeDocumentMoniker": "Data\\WebDocumentDb.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\WebDocumentDb.cs",
+              "RelativeToolTip": "Data\\WebDocumentDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:48:30.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\RoleManagementService.cs",
+              "RelativeDocumentMoniker": "Service\\RoleManagementService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\RoleManagementService.cs",
+              "RelativeToolTip": "Service\\RoleManagementService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:55:26.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Service\\NotificationService.cs",
               "RelativeDocumentMoniker": "Service\\NotificationService.cs",
@@ -249,12 +274,11 @@
               "RelativeToolTip": "Service\\NotificationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T22:55:23.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T22:55:23.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "NotificationController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
@@ -262,12 +286,11 @@
               "RelativeToolTip": "Controllers\\NotificationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:08:56.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T23:08:56.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CommunityController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Controllers\\CommunityController.cs",
               "RelativeDocumentMoniker": "Controllers\\CommunityController.cs",
@@ -275,12 +298,11 @@
               "RelativeToolTip": "Controllers\\CommunityController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T14:50:54.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T14:50:54.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -292,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "RatingEnum.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Enum\\RatingEnum.cs",
               "RelativeDocumentMoniker": "Enum\\RatingEnum.cs",
@@ -304,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -316,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CommunityHub.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\CommunityHub.cs",
               "RelativeDocumentMoniker": "Models\\CommunityHub.cs",
@@ -328,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Community.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Community.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Community.cshtml",
@@ -340,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Resume.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Resume.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Resume.cshtml",
@@ -352,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -364,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -376,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -388,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -400,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IndexModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Models\\IndexModel.cs",
               "RelativeDocumentMoniker": "Models\\IndexModel.cs",
@@ -412,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Admin.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Admin.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Admin.cshtml",
@@ -424,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -436,19 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-23T15:14:52.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -460,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LogService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\LogService\\LogService.cs",
               "RelativeDocumentMoniker": "LogService\\LogService.cs",
@@ -472,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "20240423152028_Initial.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\Migrations\\20240423152028_Initial.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240423152028_Initial.cs",
@@ -484,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -496,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Review.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Review.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Review.cshtml",
@@ -508,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -520,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -532,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -544,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Error.cshtml",
@@ -556,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -568,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -580,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\USB BABIT\\ikub_info_net_2023\\Oliger Shehi\\WebSiteDocuments\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
